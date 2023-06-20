@@ -12,3 +12,4 @@
 * You can see our blogs by going to the blog site.
 * You can login with email and password or google login by going to login page.
 * You can create an account with your email and password by going to the sign up page.
+-----
