@@ -22,7 +22,7 @@ const SubCategory = () => {
         <section className="mb-16 lg:mx-32">
             <h2 className="text-center mb-8 text-2xl lg:text-3xl font-semibold"><span className="border-b-4 sm:pb-1 border-orange-600">Shop by Category</span></h2>
 
-            <div className='text-center'>
+            <div className='text-center' data-aos="fade-up" data-aos-duration="1000">
                 <Tabs>
                     <TabList>
                         <Tab>

@@ -52,7 +52,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar-wrapper mb-6 lg:px-12 py-1 px-2 bg-[#ee8eb4] rounded">
+        <div className="navbar-wrapper mb-6 lg:px-12 py-1 px-2 bg-purple-600 sm:text-white rounded">
             <div className="navbar-container flex items-center justify-between">
                 <div className="navbar-start flex items-center">
                     <div className="dropdown sm:hidden" onClick={() => setHide(!hide)}>
@@ -70,7 +70,7 @@ const Navbar = () => {
                         <Link className="w-20 sm:w-28" to={"/"}>
                             <img className="" src="https://i.ibb.co/vmTPGCM/cute-cat-driving-car-cartoon-character-animal-transportation-isolated-138676-3153-1-removebg-preview.png" alt="" />
                         </Link>
-                        <p className="text-xl md:text-4xl font-bold text-white ml-2 sm:ml-4">
+                        <p className="text-xl text-white md:text-4xl font-bold ml-2 sm:ml-4">
                             LITTLE CARS
                         </p>
                     </div>
