@@ -6,9 +6,9 @@ import banner3 from "../../../assets/bannerImg/b3.jpg";
 const Banner = () => {
     return (
         <section data-aos="fade-up" data-aos-duration="1000" className="mb-16">
-            <div className="carousel w-full" style={{ height: "800px" }}>
+            <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <div className="hero rounded md:h-screen" style={{ opacity: "0.9", backgroundImage: `url(${banner1})` }}>
+                    <div className="hero rounded md:h-screen" style={{ opacity: "0.9", backgroundImage: `url(${banner2})` }}>
                         <div className=""></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-5xl">
@@ -24,7 +24,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <div className="hero rounded md:h-screen" style={{ opacity: "0.9", backgroundImage: `url(${banner2})` }}>
+                    <div className="hero rounded md:h-screen" style={{ opacity: "0.9", backgroundImage: `url(${banner1})` }}>
                         <div className=""></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-5xl">
